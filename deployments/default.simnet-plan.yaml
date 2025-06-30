@@ -60,13 +60,13 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
-            contract-name: architect-verification
+            contract-name: connection-facilitation
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/architect-verification.clar
+            path: contracts/connection-facilitation.clar
             clarity-version: 3
         - emulated-contract-publish:
-            contract-name: cost-optimization
+            contract-name: expert-coordinator-verification
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/cost-optimization.clar
+            path: contracts/expert-coordinator-verification.clar
             clarity-version: 3
       epoch: "3.1"
